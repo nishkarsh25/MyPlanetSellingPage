@@ -6,22 +6,35 @@
     <link href="./output.css" rel="stylesheet">
     <title>Planet Shop</title>
 </head>
-<body>
-    <header>
-        <div class="">Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Offers </a></li>
-                <li><a href="#"> Buy Now </a></li>
-                <li><a href="#"> Sell Now </a></li>
-                <li><a href="#"> About us </a></li>
-                <li><a href="#"> Sign up </a></li>
-            </ul>
-        </nav>
+<body class="bg-gray-900 text-white font-bold">
+    <header class="border-b border-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="logo text-lg">Logo</div>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full">Home</a></li>
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full">Offers</a></li>
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full">Buy Now</a></li>
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full">Sell Now</a></li>
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full">About Us</a></li>
+                    <li><a href="#" class="px-4 py-2 border border-white rounded-full bg-white text-black hover:bg-black hover:text-white">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-
+    <main class="container mx-auto flex flex-col md:flex-row items-center py-12">
+        <div class="contentleft md:w-1/3">
+            <h2 class="text-4xl mb-6">Mercury</h2>
+        </div>
+        <div class="contentmid md:w-1/2 mx-auto md:mx-0 md:ml-8">
+            <p class="text-lg leading-relaxed mb-6">Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its rising or setting is always within about two hours of the Sun’s, it is never observable when the sky is fully dark. Mercury is designated by the symbol ☿. <br>
+                Mercury is the closest planet to the Sun, at a distance of 57.91 million kilometers / 35.98 miles or 0.4 AU away. It takes sunlight 3.2 minutes to travel from the Sun to Mercury.
+            </p>
+            <button class="btn bg-white text-black px-8 py-4 rounded-full hover:bg-gray-900 hover:text-white">Buy Now</button>
+        </div>
+        <div class="contentright md:w-1/3 mt-8 md:mt-0">
+            <img src="/images/About.png" alt="merc" class="w-full">
+        </div>
     </main>
 </body>
 </html>
