@@ -2,6 +2,10 @@
 
 Welcome to the MyPlanetSellingPage repository! This comprehensive project is a web page designed to provide extensive information about planets while also serving as a platform for purchasing related merchandise. Leveraging HTML for structure and Tailwind CSS for styling, this project ensures not only a visually appealing but also a responsive and engaging user experience.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://myplanetsellingpage.onrender.com/).
+
 ## Project Structure
 
 ```
